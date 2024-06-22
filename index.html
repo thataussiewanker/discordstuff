@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Slot Machine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Celebrity Slot Machine</h1>
+        <div id="slots-container"></div>
+        <div id="selected-celeb"></div>
+        <div class="buttons">
+            <button id="spinButton">SPIN!</button>
+            <button id="editCelebsButton">Edit Celebs</button>
+            <button id="filterButton">Filter: All Content</button>
+            <button id="mediaTypeButton">Media: Both</button>
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+        <div id="celebEditDiv" class="hidden">
+            <textarea id="celebTextArea" placeholder="Enter celebrity names, separated by commas"></textarea>
+            <button id="saveCelebsButton">Save</button>
+        </div>
+        <div id="media-feed" class="media-feed"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
